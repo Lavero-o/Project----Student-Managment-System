@@ -3,8 +3,8 @@ import tkinter as tk
 from tkinter import ttk
 
 
-data_file = 'Project -- Student Managment System/storage.data'
-assets = "Project -- Student Managment System/Assets/"
+data_file = 'storage.data'
+assets = "Assets/"
 
 class Student:
     def __init__(self, name: str, roll_number: int, student_class: str, grades: list, attendance_percentage: float, extracurricular_activities: list) -> None:
